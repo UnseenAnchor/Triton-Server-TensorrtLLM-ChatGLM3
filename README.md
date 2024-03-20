@@ -131,8 +131,8 @@ pip install regex fire pandas tabulate -i https://pypi.tuna.tsinghua.edu.cn/simp
 
 需要修改的
 
-- /mnt/liyanbo/tensorrtllm_backend/triton_model_repo/postprocessing/1/model.py
-- /mnt/liyanbo/tensorrtllm_backend/triton_model_repo/preprocessing/1/model.py
+- /tensorrtllm_backend/triton_model_repo/postprocessing/1/model.py
+- /tensorrtllm_backend/triton_model_repo/preprocessing/1/model.py
 
 具体修改内容见文档内
 
