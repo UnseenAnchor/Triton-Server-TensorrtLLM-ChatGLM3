@@ -174,4 +174,4 @@ python3 inflight_batcher_llm/client/end_to_end_grpc_client.py --streaming --outp
 <a name="RJVwO"></a>
 ### 踩坑记录
 
-至于踩坑过程中遇到的一些bug由于没有及时记录，所以基本
+至于踩坑过程中遇到的一些bug之后记录在这里
