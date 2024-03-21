@@ -352,7 +352,7 @@ model_transaction_policy {
 <a name="G2BGv"></a>
 #### 需要修改的model.py
 
-- /mnt/liyanbo/tensorrtllm_backend/triton_model_repo/postprocessing/1/model.py
+- /tensorrtllm_backend/triton_model_repo/preprocessing/1/model.py
 ```python
 # 一定要在导入transformers之前使用
 import os
@@ -378,7 +378,7 @@ self.tokenizer_end_id = self.tokenizer.eos_token_id
 start_ids = np.stack([np.pad(seq, (0, max_len - seq.shape[0]), 'constant', constant_values=(0, self.tokenizer_pad_id)) for seq in start_ids])
 ```
 
-- /mnt/liyanbo/tensorrtllm_backend/triton_model_repo/preprocessing/1/model.py
+- /tensorrtllm_backend/triton_model_repo/postprocessing/1/model.py
 ```python
 # 一定要在导入transformers之前使用
 import os
