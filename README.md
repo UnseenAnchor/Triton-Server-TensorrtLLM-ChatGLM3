@@ -74,7 +74,7 @@ TensorRT-LLM 使用的流程：<br />![b39f6a448aab35464ed4f878ac83e5e8.png](htt
 <a name="JGsWv"></a>
 ### 拉取tritonserver镜像
 ```shell
-docker pull nvcr.io/nvidia/tritonserver:24.01-vllm-python-py3
+docker pull nvcr.io/nvidia/tritonserver:24.01-trtllm-python-py3
 ```
 <a name="iSy2L"></a>
 ### clone tensorrtllm项目
